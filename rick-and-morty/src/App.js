@@ -4,6 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
 import Cards from './components/Cards/Cards';
 import Filters from './components/Filters/Filters';
+import Paginations from './components/Paginations/Paginations';
+import { Pagination } from 'react-bootstrap';
 
 
 function App() {
@@ -36,7 +38,7 @@ function App() {
           </div>
         </div>
       </div>
-
+      <Paginations pageNumber={pageNumber}setPageNumber={setPageNumber}/>
     </div>
   );
 }
