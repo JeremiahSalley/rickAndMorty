@@ -19,4 +19,7 @@ const Paginations = ({ info, pageNumber, setPageNumber }) => {
   );
 };
 
+
+
+
 export default Paginations;
