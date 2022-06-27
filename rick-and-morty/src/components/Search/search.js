@@ -3,7 +3,7 @@ import styles from "./Search.module.css";
 
 const Search = ({ setSearch, setPageNumber }) => {
   return (
-    <form className="d-flex justify-content-center gap-4 mb-5">
+    <form className="d-flex justify-content-center gap-4 mb-5 flex-sm-row flex-column align-items-center">
       <input
         type="text"
         className={styles.input}
